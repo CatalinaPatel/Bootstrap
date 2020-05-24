@@ -4,8 +4,11 @@
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+    background-color: rgb(67, 117, 117);
+}
 img{
-    margin-left: 0px;
+
     width: 450px;
     height: 600px;
 }

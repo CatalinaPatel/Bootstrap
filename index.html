@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--Bootstrap Link-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="stylesheet" href="Style.css">  
+<link rel="stylesheet" href="Styles/Style.css">  
 <title>Catalina Patel Portfolio</title>
 </head>
 <body>
@@ -23,53 +23,48 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
-              </li>
+            </li>
           </ul> 
         </div>
       </nav>
     </header>
     <!--Introduction-->
-    <div class="container">
+    <div class="container-fluid">
+      <div class="bg-white text-dark">
         <div class="row">
             <div class="col">
-             <img src="./Images/IMG_4261.jpeg" alt="My profile picture">
+             <img src="./Images/IMG_4261.jpeg" class="img-thumbnail" alt="My profile picture">
             </div>
             <div class="col">
               <h2><strong>I am Catalina Patel!</strong> </h2>
-              <h4>Creative Industrial Designer with extensive experience in the health insurance industry. Certified English-Spanish interpreter that loves working with different communities to help them succeed. Self-made real estate investor. Future Web Developer and Coding expert.</h3>
+              <p class="text-left">Creative Industrial Designer with extensive experience in the health insurance industry. Certified English-Spanish interpreter that loves working with different communities to help them succeed. Self-made real estate investor. Future Web Developer and Coding expert.</p>
             </div>
         </div>
+      </div>
+    </div>
     <!--Categories-->
-        <div class="row">
-          <div class="column">
-            <div class="content">
-              <img src="design.jpeg" alt="Design" style="width:100%">
-              <h3>Design</h3>
-              <p>Lorem ipsum..</p>
-            </div>
+    <section class="container-fluid">
+            <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-3 text-white text-justify"> 
+              <img src="Images/design.jpeg" class="img-thumbnail" alt="Design"> 
+              <h4>Design</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, iste nisi. Quidem nam iusto numquam tempora officiis veniet</p>
           </div>
-          <div class="column">
-            <div class="content">
-              <img src="marketing.jpeg" alt="Marketing" style="width:100%">
-              <h3>Marketing</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="photography.jpeg" alt="Photography" style="width:100%">
-              <h3>Photography</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="investment.jpeg" alt="Investment" style="width:100%">
-              <h3>Investment</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 text-white text-justify">
+            <img src="Images/Marketing.jpeg" class="img-thumbnail" alt="Marketing">
+            <h4>Marketing</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe adipisci reprehenderit magni veniam odio ipsum!</p>
         </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 text-white text-justify">
+            <img src="Images/photography.jpeg" class="img-thumbnail" alt="Potography">
+            <h4>Photography</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae a temporibus id voluptatum, saepe quas ipsa, dignissimos quo officiis cupiditate!</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 text-white text-justify">
+          <img src="Images/IMG_2731.jpeg" class="img-thumbnail" alt="Web">
+          <h4>Web</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ad et consequatur veniam explicabo hic ducimus libero dicta temporibus cumque aperiam doloremque dolores.</p>
+      </div>   
 </div>
 </body>
 </html>
