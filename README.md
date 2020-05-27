@@ -13,7 +13,7 @@ I used Bootstrap to develop my portfolio site and included the following items:
 
    * Sticky footer
 
-   * Includes and index, portfolio and contact HTML files
+   * Included and index, portfolio and contact HTML files
 
    * The application is functional and all links work
 
